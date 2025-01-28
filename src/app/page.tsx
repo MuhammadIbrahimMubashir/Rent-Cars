@@ -1,6 +1,5 @@
 "use client";
 
-import { CarouselPlugin } from "../components/carso";
 import React, { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -12,10 +11,8 @@ import s from "../app/images/s.png";
 import d from "../app/images/d.png";
 import a from "../app/images/a.png";
 import m from "../app/images/m.png";
-import { CarouselSpacing } from "@/components/threecarso";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Cars from "@/components/cars";
 import AboutUsC from "@/components/aboutus";
 
 export default function Page() {
