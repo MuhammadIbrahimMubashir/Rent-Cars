@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useEffect } from "react";
+import { CarouselPlugin } from "../components/carso";
+import { CarouselSpacing } from "@/components/threecarso";
 import Link from "next/link";
 import Image from "next/image";
 import SearchForm from "./component/page";
@@ -11,9 +13,9 @@ import s from "../app/images/s.png";
 import d from "../app/images/d.png";
 import a from "../app/images/a.png";
 import m from "../app/images/m.png";
+import Cars from "@/components/cars";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import AboutUsC from "@/components/aboutus";
 
 export default function Page() {
   useEffect(() => {
@@ -167,8 +169,7 @@ export default function Page() {
             <br />
             <br />- Rent with us today and experience the freedom to drive on
             your terms!
-            <br/>
-            
+            <br/> 
           </h1>
         </div>
         
