@@ -31,11 +31,11 @@ export default function Budget() {
             <span className="ml-3 text-xl font-serif">QuickRent Cars</span>
           </p>
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-lg justify-center font-serif gap-5">
-            <Link href="/" className="flex justify-center items-center hover:bg-slate-600 hover:h-8 hover:w-[68] hover:text-white rounded-[10]">Home</Link>
-            <Link href="/#cars" className="flex justify-center items-center hover:bg-slate-600 hover:h-8 hover:w-[55] hover:text-white rounded-[10]">Cars</Link>
-            <Link href="/#about-us" className="flex justify-center items-center hover:bg-slate-600 hover:h-8 hover:w-[98] hover:text-white rounded-[10]">About Us</Link>
-            <Link href="/#reviews" className="flex justify-center items-center hover:bg-slate-600 hover:h-8 hover:w-[120] hover:text-white rounded-[10]">Our Reviews</Link>
-            <Link href="/contactus" target="_blank" className="flex justify-center items-center hover:bg-slate-600 hover:h-8 hover:w-[108] hover:text-white rounded-[10]">Contact Us</Link>
+            <Link href="/" className="flex justify-center items-center hover:bg-slate-600 hover:h-8 hover:w-[68px] hover:text-white rounded-[10px]">Home</Link>
+            <Link href="/#cars" className="flex justify-center items-center hover:bg-slate-600 hover:h-8 hover:w-[55px] hover:text-white rounded-[10px]">Cars</Link>
+            <Link href="/#about-us" className="flex justify-center items-center hover:bg-slate-600 hover:h-8 hover:w-[98px] hover:text-white rounded-[10px]">About Us</Link>
+            <Link href="/#reviews" className="flex justify-center items-center hover:bg-slate-600 hover:h-8 hover:w-[120px] hover:text-white rounded-[10px]">Our Reviews</Link>
+            <Link href="/contactus" target="_blank" className="flex justify-center items-center hover:bg-slate-600 hover:h-8 hover:w-[108px] hover:text-white rounded-[10px]">Contact Us</Link>
           </nav>
         </div>
       </header>
